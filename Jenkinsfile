@@ -10,5 +10,5 @@ node{
     url: 'https://localhost'
     filename: 'index.html',
     appid: 'nginx',
-    docker: docker run -itd --name Jenkins_vishal_web -p 8080:80 nginx_test
+    docker: docker build -t nginx_test
     }
