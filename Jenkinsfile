@@ -7,7 +7,7 @@ node{
   
   stage 'Deploy'
     
-    url: 'https://localhost',
+    url: 'https://localhost:8080',
     filename: 'index.html',
     appid: 'nginx',
     docker: docker build -t nginx_test
