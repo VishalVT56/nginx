@@ -13,6 +13,6 @@ node{
     url: 'https://localhost',
     filename: 'index.html',
     appid: 'nginx',
-    docker: docker build -t nginx_test
+    docker: "docker build -t nginx_test:03042018"
   }
 }
