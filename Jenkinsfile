@@ -4,9 +4,7 @@ node{
   checkout scm
     stage 'Build'
     sh "/.run.sh"
-   
-   
-   
+  
   stage 'Deploy'
     
     url: 'https://localhost'
